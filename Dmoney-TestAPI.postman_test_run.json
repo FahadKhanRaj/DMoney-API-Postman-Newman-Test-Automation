@@ -1,0 +1,1412 @@
+{
+	"id": "d85680b6-4ebc-4f3a-b171-4baaf9dcde01",
+	"name": "Dmoney-TestAPI",
+	"timestamp": "2025-03-11T17:17:27.722Z",
+	"collection_id": "42906001-f57866b9-1864-44aa-bfa0-15abcc0f30e8",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 68,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-03-11T17:17:20.072Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ea206840-6c21-40d8-b08a-de9ebe4a03b5",
+			"name": "Admin Can Login with Valid Data",
+			"url": "http://dmoney.roadtocareer.net/user/login",
+			"time": 54,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify admin login is successful": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Verify admin login is successful": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				54
+			],
+			"allTests": [
+				{
+					"Verify admin login is successful": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6566bc95-8c64-4066-8222-b1af1cfeafdd",
+			"name": "Admin Can't Login with invalid Email",
+			"url": "http://dmoney.roadtocareer.net/user/login",
+			"time": 43,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Verify admin cant login with wrong email": true,
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Verify admin cant login with wrong email": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				43
+			],
+			"allTests": [
+				{
+					"Verify admin cant login with wrong email": true,
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "f7910a9f-805c-4b5b-a184-2c9ee464f384",
+			"name": "Admin Can't Login with invalid Password",
+			"url": "http://dmoney.roadtocareer.net/user/login",
+			"time": 63,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Verify admin cant login with wrong password": true,
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Verify admin cant login with wrong password": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				63
+			],
+			"allTests": [
+				{
+					"Verify admin cant login with wrong password": true,
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "4abfd663-000b-4224-9c13-bb9251ff6735",
+			"name": "Admin Can create an Agent",
+			"url": "http://dmoney.roadtocareer.net/user/create",
+			"time": 121,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify admin create an Agent": true,
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Verify admin create an Agent": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				121
+			],
+			"allTests": [
+				{
+					"Verify admin create an Agent": true,
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "7f1bb593-8b46-4048-9063-52bfa06ddca4",
+			"name": "Admin Can't create an Agent with invalid phone",
+			"url": "http://dmoney.roadtocareer.net/user/create",
+			"time": 55,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Verify Admin Can't create an Agent with invalid phone": true,
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Verify Admin Can't create an Agent with invalid phone": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				55
+			],
+			"allTests": [
+				{
+					"Verify Admin Can't create an Agent with invalid phone": true,
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "7a8a0ae7-8d60-4dfe-9aba-ba71cd4d1a75",
+			"name": "Admin Can create a Customer 1",
+			"url": "http://dmoney.roadtocareer.net/user/create",
+			"time": 182,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify admin can create a Customer": true,
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Verify admin can create a Customer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				182
+			],
+			"allTests": [
+				{
+					"Verify admin can create a Customer": true,
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "e06a1c55-87da-4003-9c98-b04c88915075",
+			"name": "Admin Can create a Customer 2",
+			"url": "http://dmoney.roadtocareer.net/user/create",
+			"time": 136,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify admin can create a Customer": true,
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Verify admin can create a Customer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				136
+			],
+			"allTests": [
+				{
+					"Verify admin can create a Customer": true,
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "4c865be0-56d9-4273-a51e-3a503f89225f",
+			"name": "Admin Can't create a customer with invalid email",
+			"url": "http://dmoney.roadtocareer.net/user/create",
+			"time": 148,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Verify Customer Can't login with invalid email": true,
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Verify Customer Can't login with invalid email": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				148
+			],
+			"allTests": [
+				{
+					"Verify Customer Can't login with invalid email": true,
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "973786f5-7c5b-47e8-9cf8-5542bc2279c6",
+			"name": "Admin Can create a Merchant",
+			"url": "http://dmoney.roadtocareer.net/user/create",
+			"time": 96,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify admin can create a Merchant": true,
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Verify admin can create a Merchant": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				96
+			],
+			"allTests": [
+				{
+					"Verify admin can create a Merchant": true,
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "b24a432f-49c8-43b7-b188-c2acac9ae2f3",
+			"name": "Admin Can't create a Merchant with invalid email",
+			"url": "http://dmoney.roadtocareer.net/user/create",
+			"time": 46,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Verify Merchant Can't login with invalid Email": true,
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Verify Merchant Can't login with invalid Email": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				46
+			],
+			"allTests": [
+				{
+					"Verify Merchant Can't login with invalid Email": true,
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "8fcdb0f9-b9e1-4766-bcc2-f4d7b94aba7b",
+			"name": "System can deposit money to an Agent",
+			"url": "http://dmoney.roadtocareer.net/transaction/deposit",
+			"time": 282,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify System can deposit money to an Agent": true,
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Verify System can deposit money to an Agent": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				282
+			],
+			"allTests": [
+				{
+					"Verify System can deposit money to an Agent": true,
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "4b9411c7-34c6-44d6-b90d-543e1241345d",
+			"name": "System cannot deposit money less than 10 TK",
+			"url": "http://dmoney.roadtocareer.net/transaction/deposit",
+			"time": 144,
+			"responseCode": {
+				"code": 208,
+				"name": "Already Reported"
+			},
+			"tests": {
+				"Verify System cannot deposit money less than 10 TK": true,
+				"Status code is 208": true
+			},
+			"testPassFailCounts": {
+				"Verify System cannot deposit money less than 10 TK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 208": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				144
+			],
+			"allTests": [
+				{
+					"Verify System cannot deposit money less than 10 TK": true,
+					"Status code is 208": true
+				}
+			]
+		},
+		{
+			"id": "c4dcb69b-c174-49c1-ad74-c4b209a0b030",
+			"name": "Agent to Customer 1 Transaction",
+			"url": "http://dmoney.roadtocareer.net/transaction/deposit",
+			"time": 140,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify Agent can deposit money to a Customer": true,
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Verify Agent can deposit money to a Customer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				140
+			],
+			"allTests": [
+				{
+					"Verify Agent can deposit money to a Customer": true,
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "0bf97fa5-f76d-497c-8446-dd4458110d9e",
+			"name": "Agent cannot deposit money more than available balance",
+			"url": "http://dmoney.roadtocareer.net/transaction/deposit",
+			"time": 34,
+			"responseCode": {
+				"code": 208,
+				"name": "Already Reported"
+			},
+			"tests": {
+				"Verify Agent cannot deposit money more than available balance": true,
+				"Status code is 208": true
+			},
+			"testPassFailCounts": {
+				"Verify Agent cannot deposit money more than available balance": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 208": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"Verify Agent cannot deposit money more than available balance": true,
+					"Status code is 208": true
+				}
+			]
+		},
+		{
+			"id": "dbb5c8fb-c9fb-40c0-96be-47ba3ebccffa",
+			"name": "Customer 1 can send money to Customer 2",
+			"url": "http://dmoney.roadtocareer.net/transaction/sendmoney",
+			"time": 135,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify Customer 1 can send money to Customer 2": true,
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Verify Customer 1 can send money to Customer 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				135
+			],
+			"allTests": [
+				{
+					"Verify Customer 1 can send money to Customer 2": true,
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "30189743-839f-4622-bf88-e0a78c295d4e",
+			"name": "Customer 1 can't deposit money to Customer 2",
+			"url": "http://dmoney.roadtocareer.net/transaction/deposit",
+			"time": 23,
+			"responseCode": {
+				"code": 208,
+				"name": "Already Reported"
+			},
+			"tests": {
+				"Verify Only Agent can deposit money": true,
+				"Status code is 208": true
+			},
+			"testPassFailCounts": {
+				"Verify Only Agent can deposit money": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 208": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Verify Only Agent can deposit money": true,
+					"Status code is 208": true
+				}
+			]
+		},
+		{
+			"id": "b4a7a81c-f548-43b4-ba26-077d4eb6d722",
+			"name": "Customer 1 to Agent Withdraw",
+			"url": "http://dmoney.roadtocareer.net/transaction/withdraw",
+			"time": 74,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify Customer to Agent Withdraw": true,
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Verify Customer to Agent Withdraw": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				74
+			],
+			"allTests": [
+				{
+					"Verify Customer to Agent Withdraw": true,
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "e4635a9d-27dd-46d4-ba2a-34d2f9e4947b",
+			"name": "Customer 1 cannot withdraw less than 10 TK",
+			"url": "http://dmoney.roadtocareer.net/transaction/withdraw",
+			"time": 30,
+			"responseCode": {
+				"code": 208,
+				"name": "Already Reported"
+			},
+			"tests": {
+				"Verify Customer cannot withdraw less than 10 TK": true,
+				"Status code is 208": true
+			},
+			"testPassFailCounts": {
+				"Verify Customer cannot withdraw less than 10 TK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 208": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"Verify Customer cannot withdraw less than 10 TK": true,
+					"Status code is 208": true
+				}
+			]
+		},
+		{
+			"id": "61fb56fe-69a5-40d7-9497-a1ee08803530",
+			"name": "Customer 2 can make payment to Merchant",
+			"url": "http://dmoney.roadtocareer.net/transaction/payment",
+			"time": 109,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify Customer 2 can make payment to Merchant": true,
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Verify Customer 2 can make payment to Merchant": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"Verify Customer 2 can make payment to Merchant": true,
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "f4ba7440-78ff-45e0-9aa1-a52c66dd39a1",
+			"name": "Customer 2 cannot make payment less than 10 TK",
+			"url": "http://dmoney.roadtocareer.net/transaction/payment",
+			"time": 31,
+			"responseCode": {
+				"code": 208,
+				"name": "Already Reported"
+			},
+			"tests": {
+				"Verify Customer 2 cannot make payment less than 10 TK": true,
+				"Status code is 208": true
+			},
+			"testPassFailCounts": {
+				"Verify Customer 2 cannot make payment less than 10 TK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 208": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				31
+			],
+			"allTests": [
+				{
+					"Verify Customer 2 cannot make payment less than 10 TK": true,
+					"Status code is 208": true
+				}
+			]
+		},
+		{
+			"id": "094e6d7f-c678-465c-b720-64abcc71a3da",
+			"name": "Customer 2 checks transaction statement by trnxId",
+			"url": "http://dmoney.roadtocareer.net/transaction/search/TXN515824",
+			"time": 83,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify Customer 2 checks transaction statement by trnxId": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Verify Customer 2 checks transaction statement by trnxId": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				83
+			],
+			"allTests": [
+				{
+					"Verify Customer 2 checks transaction statement by trnxId": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4b0c134b-9bf3-48a5-81ad-f8c188edc7a6",
+			"name": "Customer 2 cannot check transaction with invalid trnxId",
+			"url": "http://dmoney.roadtocareer.net/transaction/search/TXN51582400",
+			"time": 81,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify Customer 2 cannot check transaction with invalid trnxId": true,
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Verify Customer 2 cannot check transaction with invalid trnxId": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				81
+			],
+			"allTests": [
+				{
+					"Verify Customer 2 cannot check transaction with invalid trnxId": true,
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "29d70c95-a22a-4253-b64e-5d5afb0b18ff",
+			"name": "Merchant checks balance after receiving payment",
+			"url": "http://dmoney.roadtocareer.net/transaction/balance/01202734238",
+			"time": 63,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify Merchant checks balance": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Verify Merchant checks balance": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				63
+			],
+			"allTests": [
+				{
+					"Verify Merchant checks balance": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "45829128-3dc8-49ea-8dde-e7abe481158e",
+			"name": "Merchant cannot check balance if account number is wrong",
+			"url": "http://dmoney.roadtocareer.net/transaction/balance/012027342389999",
+			"time": 29,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify Merchant cannot check balance if account number is wrong": true,
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Verify Merchant cannot check balance if account number is wrong": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				29
+			],
+			"allTests": [
+				{
+					"Verify Merchant cannot check balance if account number is wrong": true,
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "2b17d6b8-070c-4ff7-b633-c66c457064d6",
+			"name": "Agent can check balance",
+			"url": "http://dmoney.roadtocareer.net/transaction/balance/01202734238",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify Agent checks balance": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Verify Agent checks balance": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Verify Agent checks balance": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3664cd54-dd06-4e8c-badd-d54df065c077",
+			"name": "Agent cannot check balance with an invalid account",
+			"url": "http://dmoney.roadtocareer.net/transaction/balance/012027342389999",
+			"time": 20,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify Agent cannot check balance if account number is wrong": true,
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Verify Agent cannot check balance if account number is wrong": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Verify Agent cannot check balance if account number is wrong": true,
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "ef2e3dea-c3f3-4271-adf7-bc43fa59f146",
+			"name": "Customer 2 checks balance",
+			"url": "http://dmoney.roadtocareer.net/transaction/balance/01202449618",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify Customer can check balance": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Verify Customer can check balance": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"Verify Customer can check balance": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "32360d13-eb2c-4156-b6fc-e8760e20077d",
+			"name": "Customer 2 cannot check balance without logging in",
+			"url": "http://dmoney.roadtocareer.net/transaction/balance/01202449618",
+			"time": 17,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Verify Customer 2 can checks balance without logging in": true,
+				"Status code is 403": true
+			},
+			"testPassFailCounts": {
+				"Verify Customer 2 can checks balance without logging in": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Verify Customer 2 can checks balance without logging in": true,
+					"Status code is 403": true
+				}
+			]
+		},
+		{
+			"id": "ff578b80-5b5c-4677-9f45-e24d7eb38a17",
+			"name": "User List",
+			"url": "http://dmoney.roadtocareer.net/user/list?limit=50",
+			"time": 750,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				750
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a627ac70-523a-4fdc-95ea-4593fdbd5f12",
+			"name": "User List for negative limit",
+			"url": "http://dmoney.roadtocareer.net/user/list?limit=-5",
+			"time": 65,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Verify server is showing validation error": true,
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Verify server is showing validation error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				65
+			],
+			"allTests": [
+				{
+					"Verify server is showing validation error": true,
+					"Status code is 500": true
+				}
+			]
+		},
+		{
+			"id": "2a84b066-3868-41bb-8721-fa8e74672cb6",
+			"name": "Create new customer",
+			"url": "http://dmoney.roadtocareer.net/user/create",
+			"time": 124,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				124
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "87b5e391-855c-4137-a970-c6c5b3fbe044",
+			"name": "Create an Agent",
+			"url": "http://dmoney.roadtocareer.net/user/create",
+			"time": 170,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				170
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ade64997-bbfa-4ffa-8f15-016c4d833bc5",
+			"name": "Search User",
+			"url": "http://dmoney.roadtocareer.net/user/search/id/70222",
+			"time": 150,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify user is found": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Verify user is found": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				150
+			],
+			"allTests": [
+				{
+					"Verify user is found": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "cbafbab8-31a6-4964-be5a-2527331f76a6",
+			"name": "User not found",
+			"url": "http://dmoney.roadtocareer.net/user/search/id/15",
+			"time": 75,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify user not found validation error": true,
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Verify user not found validation error": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				75
+			],
+			"allTests": [
+				{
+					"Verify user not found validation error": true,
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "6ea774c2-fff3-4a75-aa4e-362ba0e65c8a",
+			"name": "Update User",
+			"url": "http://dmoney.roadtocareer.net/user/update/72826",
+			"time": 289,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				289
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cba3b0ac-5b81-4553-97e8-421a4b76bbdf",
+			"name": "Update User by patch",
+			"url": "http://dmoney.roadtocareer.net/user/update/72826",
+			"time": 116,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				116
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4c16063e-ff8f-4dde-9e1f-bc2c8e9972e4",
+			"name": "Create existing user",
+			"url": "http://dmoney.roadtocareer.net/user/create",
+			"time": 180,
+			"responseCode": {
+				"code": 208,
+				"name": "Already Reported"
+			},
+			"tests": {
+				"Verify user cant created with existing email": true,
+				"Status code is 208": true
+			},
+			"testPassFailCounts": {
+				"Verify user cant created with existing email": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 208": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				180
+			],
+			"allTests": [
+				{
+					"Verify user cant created with existing email": true,
+					"Status code is 208": true
+				}
+			]
+		},
+		{
+			"id": "d0fb4491-4829-48f2-a905-c01d290e845c",
+			"name": "Delete User",
+			"url": "http://dmoney.roadtocareer.net/user/delete/72826",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				149
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f9bd738c-a1c6-410e-86d4-8276c2136efe",
+			"name": "User Login",
+			"url": "http://dmoney.roadtocareer.net/user/login",
+			"time": 172,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify user login is successful": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Verify user login is successful": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				172
+			],
+			"allTests": [
+				{
+					"Verify user login is successful": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "afea719f-80af-4b17-a8f1-a9a1193b2ff1",
+			"name": "User Login with wrong creds",
+			"url": "http://dmoney.roadtocareer.net/user/login",
+			"time": 62,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Verify user cant login with wrong creds": true,
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Verify user cant login with wrong creds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				62
+			],
+			"allTests": [
+				{
+					"Verify user cant login with wrong creds": true,
+					"Status code is 401": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4578,
+	"collection": {
+		"requests": [
+			{
+				"id": "ea206840-6c21-40d8-b08a-de9ebe4a03b5",
+				"method": "POST"
+			},
+			{
+				"id": "6566bc95-8c64-4066-8222-b1af1cfeafdd",
+				"method": "POST"
+			},
+			{
+				"id": "f7910a9f-805c-4b5b-a184-2c9ee464f384",
+				"method": "POST"
+			},
+			{
+				"id": "4abfd663-000b-4224-9c13-bb9251ff6735",
+				"method": "POST"
+			},
+			{
+				"id": "7f1bb593-8b46-4048-9063-52bfa06ddca4",
+				"method": "POST"
+			},
+			{
+				"id": "7a8a0ae7-8d60-4dfe-9aba-ba71cd4d1a75",
+				"method": "POST"
+			},
+			{
+				"id": "e06a1c55-87da-4003-9c98-b04c88915075",
+				"method": "POST"
+			},
+			{
+				"id": "4c865be0-56d9-4273-a51e-3a503f89225f",
+				"method": "POST"
+			},
+			{
+				"id": "973786f5-7c5b-47e8-9cf8-5542bc2279c6",
+				"method": "POST"
+			},
+			{
+				"id": "b24a432f-49c8-43b7-b188-c2acac9ae2f3",
+				"method": "POST"
+			},
+			{
+				"id": "8fcdb0f9-b9e1-4766-bcc2-f4d7b94aba7b",
+				"method": "POST"
+			},
+			{
+				"id": "4b9411c7-34c6-44d6-b90d-543e1241345d",
+				"method": "POST"
+			},
+			{
+				"id": "c4dcb69b-c174-49c1-ad74-c4b209a0b030",
+				"method": "POST"
+			},
+			{
+				"id": "0bf97fa5-f76d-497c-8446-dd4458110d9e",
+				"method": "POST"
+			},
+			{
+				"id": "dbb5c8fb-c9fb-40c0-96be-47ba3ebccffa",
+				"method": "POST"
+			},
+			{
+				"id": "30189743-839f-4622-bf88-e0a78c295d4e",
+				"method": "POST"
+			},
+			{
+				"id": "b4a7a81c-f548-43b4-ba26-077d4eb6d722",
+				"method": "POST"
+			},
+			{
+				"id": "e4635a9d-27dd-46d4-ba2a-34d2f9e4947b",
+				"method": "POST"
+			},
+			{
+				"id": "61fb56fe-69a5-40d7-9497-a1ee08803530",
+				"method": "POST"
+			},
+			{
+				"id": "f4ba7440-78ff-45e0-9aa1-a52c66dd39a1",
+				"method": "POST"
+			},
+			{
+				"id": "094e6d7f-c678-465c-b720-64abcc71a3da",
+				"method": "GET"
+			},
+			{
+				"id": "4b0c134b-9bf3-48a5-81ad-f8c188edc7a6",
+				"method": "GET"
+			},
+			{
+				"id": "29d70c95-a22a-4253-b64e-5d5afb0b18ff",
+				"method": "GET"
+			},
+			{
+				"id": "45829128-3dc8-49ea-8dde-e7abe481158e",
+				"method": "GET"
+			},
+			{
+				"id": "2b17d6b8-070c-4ff7-b633-c66c457064d6",
+				"method": "GET"
+			},
+			{
+				"id": "3664cd54-dd06-4e8c-badd-d54df065c077",
+				"method": "GET"
+			},
+			{
+				"id": "ef2e3dea-c3f3-4271-adf7-bc43fa59f146",
+				"method": "GET"
+			},
+			{
+				"id": "32360d13-eb2c-4156-b6fc-e8760e20077d",
+				"method": "GET"
+			},
+			{
+				"id": "ff578b80-5b5c-4677-9f45-e24d7eb38a17",
+				"method": "GET"
+			},
+			{
+				"id": "a627ac70-523a-4fdc-95ea-4593fdbd5f12",
+				"method": "GET"
+			},
+			{
+				"id": "2a84b066-3868-41bb-8721-fa8e74672cb6",
+				"method": "POST"
+			},
+			{
+				"id": "87b5e391-855c-4137-a970-c6c5b3fbe044",
+				"method": "POST"
+			},
+			{
+				"id": "ade64997-bbfa-4ffa-8f15-016c4d833bc5",
+				"method": "GET"
+			},
+			{
+				"id": "cbafbab8-31a6-4964-be5a-2527331f76a6",
+				"method": "GET"
+			},
+			{
+				"id": "6ea774c2-fff3-4a75-aa4e-362ba0e65c8a",
+				"method": "PUT"
+			},
+			{
+				"id": "cba3b0ac-5b81-4553-97e8-421a4b76bbdf",
+				"method": "PATCH"
+			},
+			{
+				"id": "4c16063e-ff8f-4dde-9e1f-bc2c8e9972e4",
+				"method": "POST"
+			},
+			{
+				"id": "d0fb4491-4829-48f2-a905-c01d290e845c",
+				"method": "DELETE"
+			},
+			{
+				"id": "f9bd738c-a1c6-410e-86d4-8276c2136efe",
+				"method": "POST"
+			},
+			{
+				"id": "afea719f-80af-4b17-a8f1-a9a1193b2ff1",
+				"method": "POST"
+			}
+		]
+	}
+}
